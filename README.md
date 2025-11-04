@@ -1,4 +1,3 @@
-# Password-Strength-Checker_Machine-Learning
 # 🔐 Password Strength Checker with Machine Learning
 
 ## 📘 Deskripsi Proyek
