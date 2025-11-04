@@ -117,6 +117,8 @@ Model Random Forest memberikan hasil paling stabil dan akurat, sehingga dipilih 
 ## 📸 Tampilan Antarmuka Website
 Tampilan utama aplikasi menampilkan input password, indikator kekuatan secara real-time, serta hasil prediksi dari keempat algoritma beserta metrik performanya.
 
+![Tampilan Aplikasi](PasswordCheckUI.png)
+
 ---
 
 ## 🌐 Fitur Utama
