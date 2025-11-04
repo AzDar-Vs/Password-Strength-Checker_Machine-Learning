@@ -89,23 +89,20 @@ Masukkan password pada kolom input, lalu tekan tombol Check untuk melihat hasil 
 
 ---
 
-##☁️ Menjalankan di Google Colab
+## ☁️ Menjalankan di Google Colab
 Jika ingin menjalankan proyek di Google Colab:
-
-Upload file password_final.ipynb dan dataset.xlsx ke Colab.
-
-Instal pustaka berikut:
-
-python
-Copy code
-!pip install flask flask-cors pandas numpy scikit-learn
-Jalankan semua sel hingga model selesai dilatih.
+- Upload file password_final.ipynb dan dataset.xlsx ke Colab.
+- Instal pustaka berikut:
+  - python
+  - Copy code
+  - !pip install flask flask-cors pandas numpy scikit-learn
+  - Jalankan semua sel hingga model selesai dilatih.
 
 (Opsional) Gunakan ngrok atau localtunnel untuk mengakses Flask API dari browser.
 
 ---
 
-##📊 Hasil Evaluasi Model
+## 📊 Hasil Evaluasi Model
 | Model                | Accuracy  | Precision  | Recall  | F1-Score  |
 |----------------------|-----------|------------|---------|-----------|
 | Random Forest        | 0.824     | 0.812      | 0.824   | 0.795     |
@@ -118,25 +115,25 @@ Model Random Forest memberikan hasil paling stabil dan akurat, sehingga dipilih 
 
 ---
 
-##📸 Tampilan Antarmuka Website
+## 📸 Tampilan Antarmuka Website
 Tampilan utama aplikasi menampilkan input password, indikator kekuatan secara real-time, serta hasil prediksi dari keempat algoritma beserta metrik performanya.
 
 ---
 
-##🌐 Fitur Utama
-✅ Menampilkan indikator kekuatan password secara real-time
-✅ Menggunakan empat algoritma Machine Learning untuk perbandingan hasil
-✅ Menampilkan tabel metrik performa dari setiap model
-✅ Antarmuka web sederhana dan responsif
+## 🌐 Fitur Utama
+- ✅ Menampilkan indikator kekuatan password secara real-time.
+- ✅ Menggunakan empat algoritma Machine Learning untuk perbandingan hasil.
+- ✅ Menampilkan tabel metrik performa dari setiap model.
+- ✅ Antarmuka web sederhana dan responsif.
 
 ---
 
-##👨‍💻 Pengembang
+## 👨‍💻 Pengembang
 Proyek ini dikembangkan sebagai bagian dari mata kuliah Machine Learning,
 dengan fokus pada penerapan pembelajaran mesin dalam bidang keamanan siber (Cyber Security).
 
 ---
 
-##🧾 Lisensi
+## 🧾 Lisensi
 Proyek ini bersifat open-source untuk keperluan pembelajaran dan penelitian.
 Anda dapat memodifikasi, menggunakan, dan mengembangkan proyek ini secara bebas untuk tujuan edukatif.
