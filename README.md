@@ -87,6 +87,8 @@ http://127.0.0.1:5000/
 Buka file index.html di browser.
 Masukkan password pada kolom input, lalu tekan tombol Check untuk melihat hasil klasifikasi kekuatan password.
 
+---
+
 ##☁️ Menjalankan di Google Colab
 Jika ingin menjalankan proyek di Google Colab:
 
@@ -101,6 +103,8 @@ Jalankan semua sel hingga model selesai dilatih.
 
 (Opsional) Gunakan ngrok atau localtunnel untuk mengakses Flask API dari browser.
 
+---
+
 ##📊 Hasil Evaluasi Model
 | Model                | Accuracy  | Precision  | Recall  | F1-Score  |
 |----------------------|-----------|------------|---------|-----------|
@@ -112,8 +116,12 @@ Jalankan semua sel hingga model selesai dilatih.
 
 Model Random Forest memberikan hasil paling stabil dan akurat, sehingga dipilih sebagai model utama.
 
+---
+
 ##📸 Tampilan Antarmuka Website
 Tampilan utama aplikasi menampilkan input password, indikator kekuatan secara real-time, serta hasil prediksi dari keempat algoritma beserta metrik performanya.
+
+---
 
 ##🌐 Fitur Utama
 ✅ Menampilkan indikator kekuatan password secara real-time
@@ -121,9 +129,13 @@ Tampilan utama aplikasi menampilkan input password, indikator kekuatan secara re
 ✅ Menampilkan tabel metrik performa dari setiap model
 ✅ Antarmuka web sederhana dan responsif
 
+---
+
 ##👨‍💻 Pengembang
 Proyek ini dikembangkan sebagai bagian dari mata kuliah Machine Learning,
 dengan fokus pada penerapan pembelajaran mesin dalam bidang keamanan siber (Cyber Security).
+
+---
 
 ##🧾 Lisensi
 Proyek ini bersifat open-source untuk keperluan pembelajaran dan penelitian.
