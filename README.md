@@ -102,11 +102,13 @@ Jalankan semua sel hingga model selesai dilatih.
 (Opsional) Gunakan ngrok atau localtunnel untuk mengakses Flask API dari browser.
 
 ##📊 Hasil Evaluasi Model
-Model	Accuracy	Precision	Recall	F1-Score
-Decision Tree	0.768	0.755	0.768	0.766
-Logistic Regression	0.816	0.808	0.816	0.774
-Naive Bayes	0.816	0.698	0.816	0.751
-Random Forest	0.832	0.820	0.832	0.806
+| Model                | Accuracy  | Precision  | Recall  | F1-Score  |
+|----------------------|-----------|------------|---------|-----------|
+| Random Forest        | 0.824     | 0.812      | 0.824   | 0.795     |
+| Logistic Regression  | 0.816     | 0.807      | 0.816   | 0.774     |
+| Decision Tree        | 0.776     | 0.765      | 0.776   | 0.769     |
+| Naive Bayes          | 0.816     | 0.698      | 0.816   | 0.751     |
+
 
 Model Random Forest memberikan hasil paling stabil dan akurat, sehingga dipilih sebagai model utama.
 
